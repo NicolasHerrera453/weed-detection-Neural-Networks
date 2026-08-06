@@ -4,7 +4,7 @@ Proyecto académico desarrollado para la asignatura de **Reconocimiento de Patro
 
 ---
 
-## 🚀 Descripción del Proyecto
+##Descripción del Proyecto
 El flujo de trabajo abarca desde el procesamiento digital de imágenes agrícolas hasta el modelado matemático y entrenamiento del algoritmo de aprendizaje automático:
 
 1. **Preprocesamiento y Visión Artificial:** Carga, manipulación y conversión de imágenes utilizando `OpenCV` y `PIL`, aplicando técnicas de binarización y normalización de escalas con `MinMaxScaler` (`scikit-learn`).
@@ -16,7 +16,7 @@ El flujo de trabajo abarca desde el procesamiento digital de imágenes agrícola
 
 ---
 
-## 🛠️ Tecnologías y Librerías Utilizadas
+##Tecnologías y Librerías Utilizadas
 * **Lenguaje:** Python
 * **Procesamiento de Imágenes y Datos:** `OpenCV` (`cv2`), `Pillow` (`PIL`), `NumPy`, `Matplotlib`, `OS`
 * **Visión por Computadora y Extracción de Características:** `scikit-image` (`hog`, `local_binary_pattern`)
@@ -24,7 +24,7 @@ El flujo de trabajo abarca desde el procesamiento digital de imágenes agrícola
 
 ---
 
-## 🧠 Arquitectura y Entrenamiento de la Red Neuronal
+##Arquitectura y Entrenamiento de la Red Neuronal
 La red fue construida puramente con **NumPy**, sin frameworks pesados de alto nivel, lo que demuestra un profundo entendimiento matemático del algoritmo:
 * **Función de Activación:** Sigmoidal (`sigmoid`).
 * **Arquitectura:** Capa de entrada dinámica (`X.shape[1]`), 1 capa oculta (4 neuronas) y 1 capa de salida.
