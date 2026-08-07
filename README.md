@@ -35,11 +35,3 @@ La red fue construida puramente con **NumPy**, sin frameworks pesados de alto ni
 
 ---
 
-## 📁 Estructura del Repositorio
-```text
-weed-detection-nn/
-│
-├── data/               # Directorio de imágenes y dataset
-├── notebooks/          # Jupyter Notebooks con el preprocesamiento y entrenamiento
-├── src/                # Scripts de extracción de características y modelo
-└── README.md           # Documentación del proyecto
